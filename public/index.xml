@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog DudsDev</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Blog DudsDev</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como instalar e configurar GIT</title>
+      <link>http://localhost:1313/blog/como_instalar_e_configurar_git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/como_instalar_e_configurar_git/</guid>
+      <description>Instalação&#xD;1 - Baixar e instalar o git do site oficial 64bits: https://www.git-scm.com/downloads&#xA;2 - Comando para ver se está instalado no computador e versão: Abrir o terminal CMD e digitar: git --version&#xA;Configuração&#xD;3 - Configurar usuário e senha do Github no Git:&#xD;git config --global user.name &amp;quot;seu-usuario-github&amp;quot;&#xD;git config --global user.email seu-email@tipo.com&#xD;4 - Inicializar uma pasta com git (cria pasta oculta com comandos de configuração git) .</description>
+    </item>
+    <item>
+      <title>Como instalar e configurar o Hugo para criar Sites estáticos</title>
+      <link>http://localhost:1313/blog/como_instalar_configurar_hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/como_instalar_configurar_hugo/</guid>
+      <description>INSTALAÇÃO&#xD;1.1 - Existem várias formas de instalar o Hugo em diversos sistemas operacionais, como: Windows, MAC e Linux, neste artigo estarei explicando como instalar no Windows. A forma mais prática é através de um gerenciador de pacotes chamado Winget. 1.2 - Aperte a tecla do Windows para abrir o Menu Iniciar e digita CMD, clique com o botão direito em cima dele e depois clique na opção: &#34;Executar como Administrador&#34;</description>
+    </item>
+  </channel>
+</rss>

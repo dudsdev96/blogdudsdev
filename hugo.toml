@@ -1,0 +1,10 @@
+baseURL = 'https://dudsdev.com.br/'
+languageCode = 'pt-br'
+title = 'Blog DudsDev'
+theme = "ananke"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
