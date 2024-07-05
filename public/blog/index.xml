@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Blog DudsDev</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blogs on Blog DudsDev</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 02 Jul 2024 20:30:43 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Colocando foto no Avatar da tela inicial no tema Paper</title>
+      <link>http://localhost:1313/blog/colocando_foto_avatar_paper/</link>
+      <pubDate>Tue, 02 Jul 2024 20:30:43 -0300</pubDate>
+      <guid>http://localhost:1313/blog/colocando_foto_avatar_paper/</guid>
+      <description>TESTE AAAAA&#xA;TESTE MENOR BBBBBBBB</description>
+    </item>
+  </channel>
+</rss>
