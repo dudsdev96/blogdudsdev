@@ -2,17 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://dudsdev.com.br/</loc>
+    <lastmod>2024-07-04T22:37:11-03:00</lastmod>
+  </url><url>
+    <loc>https://dudsdev.com.br/blog/</loc>
+    <lastmod>2024-07-04T22:37:11-03:00</lastmod>
+  </url><url>
+    <loc>https://dudsdev.com.br/blog/como_instalar_configurar_git/</loc>
+    <lastmod>2024-07-04T22:37:11-03:00</lastmod>
+  </url><url>
+    <loc>https://dudsdev.com.br/blog/como_instalar_configurar_hugo/</loc>
+    <lastmod>2024-07-04T22:35:09-03:00</lastmod>
+  </url><url>
+    <loc>https://dudsdev.com.br/blog/introducao_banco_de_dados/</loc>
     <lastmod>2024-07-02T20:30:43-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-07-02T20:30:43-03:00</lastmod>
+    <loc>https://dudsdev.com.br/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/colocando_foto_avatar_paper/</loc>
-    <lastmod>2024-07-02T20:30:43-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://dudsdev.com.br/tags/</loc>
   </url>
 </urlset>

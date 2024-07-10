@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Blog DudsDev</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://dudsdev.com.br/blog/</link>
     <description>Recent content in Blogs on Blog DudsDev</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 02 Jul 2024 20:30:43 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jul 2024 22:37:11 -0300</lastBuildDate>
+    <atom:link href="https://dudsdev.com.br/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como instalar o configurar o GIT no seu computador</title>
+      <link>https://dudsdev.com.br/blog/como_instalar_configurar_git/</link>
+      <pubDate>Thu, 04 Jul 2024 22:37:11 -0300</pubDate>
+      <guid>https://dudsdev.com.br/blog/como_instalar_configurar_git/</guid>
+      <description> git config --global user.name &amp;quot;seu-usuario-github&amp;quot; git config --global user.email seu-email@tipo.com cd &amp;quot;caminho da pasta&amp;quot; git init git status git add ./caminho.extensão (arquivo específico) git add . (para preparar todos os arquivos do repositório para commitar/enviar) * A cada alteração no arquivo é necessário adicionar o arquivo novamente o preparo do envio </description>
+    </item>
+    <item>
+      <title>Como instalar e configurar o HUGO Sites</title>
+      <link>https://dudsdev.com.br/blog/como_instalar_configurar_hugo/</link>
+      <pubDate>Thu, 04 Jul 2024 22:35:09 -0300</pubDate>
+      <guid>https://dudsdev.com.br/blog/como_instalar_configurar_hugo/</guid>
+      <description>Instalação </description>
+    </item>
     <item>
       <title>Colocando foto no Avatar da tela inicial no tema Paper</title>
-      <link>http://localhost:1313/blog/colocando_foto_avatar_paper/</link>
+      <link>https://dudsdev.com.br/blog/introducao_banco_de_dados/</link>
       <pubDate>Tue, 02 Jul 2024 20:30:43 -0300</pubDate>
-      <guid>http://localhost:1313/blog/colocando_foto_avatar_paper/</guid>
+      <guid>https://dudsdev.com.br/blog/introducao_banco_de_dados/</guid>
       <description>TESTE AAAAA&#xA;TESTE MENOR BBBBBBBB</description>
     </item>
   </channel>

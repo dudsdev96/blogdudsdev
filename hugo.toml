@@ -22,7 +22,7 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
   rss = true                                # show rss icon
 
   # home page profile
-  avatar = 'https://github.com/dudsdev96/blogdudsdev/tree/BlogTemaPaper/static/img/fotoperfil.jpg'                 # gravatar email or image url
+  avatar = 'https://github.com/dudsdev96/blogdudsdev/blob/BlogTemaPaper/static/img/fotoperfil.jpg'                 # gravatar email or image url
   name = 'Eduardo Antônio (Duds)'
   bio = 'Apaixonado pela ciência, por aprender, otimizar e resolver problemas'
 
