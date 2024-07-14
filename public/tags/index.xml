@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tags on Blog DudsDev</title>
+  <link rel="alternate" href="https://dudsdev.com.br/tags/" />
+  <link rel="self" href="https://dudsdev.com.br/tags/index.xml" />
+  <subtitle>Recent content in Tags on Blog DudsDev</subtitle>
+  <id>https://dudsdev.com.br/tags/</id>
+  <generator uri="http://gohugo.io" version="0.126.2">Hugo</generator>
+  <language>pt-br</language>
+  <updated>0001-01-01T00:00:00Z</updated>
+  <author>
+    
+    
+  </author>
+  
+
+</feed>
+
+

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>GIT: Repositório local e Remoto - Qual a diferença e o que fazer? | Blog DudsDev</title>
+<meta name="keywords" content="">
+<meta name="description" content="Diferença entre os repositórios O repositório remoto é a pasta com os arquivos do projeto que estão fisicamente em seu computador (local).
+Então você vai encontrar na sua frente 2 cenários:
+Você tem arquivos que estão somente em seu computador (localmente), ou: Você criou o repositório pelo site do GitHub mas ele está vazio, então você quer por arquivos nele para que possa controlar as versões do seu projeto. Porém existe um problema!">
+<meta name="author" content="">
+<link rel="canonical" href="https://dudsdev.com.br/blog/como_sincronizar_repositorios_git/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.e82609d1512172c5688940297a578c85502c48c8cbe45ee1894220fceca5d561.css" integrity="sha256-6CYJ0VEhcsVoiUApeleMhVAsSMjL5F7hiUIg/Oyl1WE=" rel="preload stylesheet" as="style">
+<noscript>
+    <link crossorigin="anonymous" href="/css/includes/noscript.7addfebfaca53cd539e359cff0971871674d2f68636af10f56c0ffa9bc574e70.css" integrity="sha256-et3&#43;v6ylPNU541nP8JcYcWdNL2hjavEPVsD/qbxXTnA=" rel="preload stylesheet" as="style">
+</noscript>
+<link rel="icon" href="https://dudsdev.com.br/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://dudsdev.com.br/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://dudsdev.com.br/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://dudsdev.com.br/apple-touch-icon.png">
+<link rel="mask-icon" href="https://dudsdev.com.br/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://dudsdev.com.br/blog/como_sincronizar_repositorios_git/">
+
+  
+
+<meta property="og:title" content="GIT: Repositório local e Remoto - Qual a diferença e o que fazer?" />
+<meta property="og:description" content="Diferença entre os repositórios O repositório remoto é a pasta com os arquivos do projeto que estão fisicamente em seu computador (local).
+Então você vai encontrar na sua frente 2 cenários:
+Você tem arquivos que estão somente em seu computador (localmente), ou: Você criou o repositório pelo site do GitHub mas ele está vazio, então você quer por arquivos nele para que possa controlar as versões do seu projeto. Porém existe um problema!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dudsdev.com.br/blog/como_sincronizar_repositorios_git/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2024-07-14T15:24:41-03:00" />
+<meta property="article:modified_time" content="2024-07-14T15:24:41-03:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="GIT: Repositório local e Remoto - Qual a diferença e o que fazer?"/>
+<meta name="twitter:description" content="Diferença entre os repositórios O repositório remoto é a pasta com os arquivos do projeto que estão fisicamente em seu computador (local).
+Então você vai encontrar na sua frente 2 cenários:
+Você tem arquivos que estão somente em seu computador (localmente), ou: Você criou o repositório pelo site do GitHub mas ele está vazio, então você quer por arquivos nele para que possa controlar as versões do seu projeto. Porém existe um problema!"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blogs",
+      "item": "https://dudsdev.com.br/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "GIT: Repositório local e Remoto - Qual a diferença e o que fazer?",
+      "item": "https://dudsdev.com.br/blog/como_sincronizar_repositorios_git/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "GIT: Repositório local e Remoto - Qual a diferença e o que fazer?",
+  "name": "GIT: Repositório local e Remoto - Qual a diferença e o que fazer?",
+  "description": "Diferença entre os repositórios O repositório remoto é a pasta com os arquivos do projeto que estão fisicamente em seu computador (local).\nEntão você vai encontrar na sua frente 2 cenários:\nVocê tem arquivos que estão somente em seu computador (localmente), ou: Você criou o repositório pelo site do GitHub mas ele está vazio, então você quer por arquivos nele para que possa controlar as versões do seu projeto. Porém existe um problema!",
+  "keywords": [
+    
+  ],
+  "articleBody": "Diferença entre os repositórios O repositório remoto é a pasta com os arquivos do projeto que estão fisicamente em seu computador (local).\nEntão você vai encontrar na sua frente 2 cenários:\nVocê tem arquivos que estão somente em seu computador (localmente), ou: Você criou o repositório pelo site do GitHub mas ele está vazio, então você quer por arquivos nele para que possa controlar as versões do seu projeto. Porém existe um problema!\nOu os arquivos vão estar localmente no seu computador somente, ou vão estar somente no servidor remoto do GitHub\nComo resolver este problema? Simples! Sincronizando os dois! Crie o repositório local no seu computador primeiro e coloque os arquivos que desejar dentro dele.\nPrimeiro Inicie o seu repositório local, abra o CMD em modo administrador e através do comando cd você vai acessar a sua pasta do repositório local. Então digite: cd caminho-da-pasta no CMD e aperte Enter\nAgora você está dentro da pasta do projeto e vai precisar iniciá-lo, digite o comando:\ngit init\nNeste momento você já pode utilizar outros comandos git dentro do seu repositório local.\nMuita atenção agora, estes comandos abaixo que vão Sincronizar os dois repositórios (local e remoto). Digite estes comandos no terminal para que o repositório local (pasta que onde você está acessado dentro do CMD): git remote add origin https://github.com/seu-usuario-github/nome-do-repositório.git git branch -M main git push -u origin main\nO comando git branch informa que o galho (branch) que será usado agora será o principal/padrão (main). E o git push está informando que os arquivos enviados através do comando push irão pelo galho (branch) Main.\nAgora quando você fizer um commit+ push (empacotar e enviar) seus arquivos do repositório local para o repositório remoto não vai dar erro pois estarão sincronizados.\n",
+  "wordCount" : "292",
+  "inLanguage": "en",
+  "datePublished": "2024-07-14T15:24:41-03:00",
+  "dateModified": "2024-07-14T15:24:41-03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dudsdev.com.br/blog/como_sincronizar_repositorios_git/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blog DudsDev",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dudsdev.com.br/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script crossorigin="anonymous" src="/assets/js/theme.b20f95bb4da41ef90a2610a557a7000b2649a3f47282ec571676da6fc0427200.js" integrity="sha256-sg&#43;Vu02kHvkKJhClV6cACyZJo/RyguxXFnbab8BCcgA="></script>
+
+<header class="header">
+    <div id="progressBar"></div>
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://dudsdev.com.br/" accesskey="h" title="Blog DudsDev (Alt + H)">Blog DudsDev</a>
+            <div class="logo-switches">
+                <button type="button" id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <input name="hamburger-input" id="hamburger-input" type="checkbox" aria-label="Navigation Menu">
+        <label id="hamburger-menu" for="hamburger-input"></label>
+        <div class="overlay"></div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      GIT: Repositório local e Remoto - Qual a diferença e o que fazer?
+    </h1>
+    <div class="post-meta"><span title='2024-07-14 15:24:41 -0300 -03'>July 14, 2024</span>
+
+</div>
+    <div class="post-meta">
+</div>
+  </header> 
+  <div class="post-content"><h3 id="diferença-entre-os-repositórios">Diferença entre os repositórios<a hidden class="anchor" aria-hidden="true" href="#diferença-entre-os-repositórios">#</a></h3>
+<p>O repositório remoto é a pasta com os arquivos do projeto que estão fisicamente em seu computador (local).</p>
+<p>Então você vai encontrar na sua frente <strong>2 cenários:</strong></p>
+<ul>
+<li>Você tem arquivos que estão somente em seu computador (localmente), ou:</li>
+<li>Você criou o repositório pelo site do GitHub mas ele está vazio, então
+você quer por arquivos nele para que possa controlar as versões do seu projeto.</li>
+</ul>
+<p><strong>Porém existe um problema!</strong></p>
+<p>Ou os arquivos vão estar localmente no seu computador somente, ou vão estar somente
+no servidor remoto do GitHub</p>
+<h3 id="como-resolver-este-problema-simples-sincronizando-os-dois">Como resolver este problema? Simples! Sincronizando os dois!<a hidden class="anchor" aria-hidden="true" href="#como-resolver-este-problema-simples-sincronizando-os-dois">#</a></h3>
+<p>Crie o repositório local no seu computador primeiro e coloque os arquivos que desejar dentro dele.</p>
+<p>Primeiro Inicie o seu repositório local, abra o CMD em modo administrador e através do comando <strong>cd</strong>
+você vai acessar a sua pasta do repositório local. Então digite: cd caminho-da-pasta no CMD e aperte Enter</p>
+<p>Agora você está dentro da pasta do projeto e vai precisar iniciá-lo, digite o comando:</p>
+<p><strong>git init</strong></p>
+<p>Neste momento você já pode utilizar outros comandos git dentro do seu repositório local.</p>
+<ul>
+<li>Muita atenção agora, estes comandos abaixo que vão Sincronizar os dois repositórios (local e remoto).
+Digite estes comandos no terminal para que o repositório local (pasta que onde você está acessado dentro do CMD):</li>
+</ul>
+<p>git remote add origin <a href="https://github.com/seu-usuario-github/nome-do-reposit">https://github.com/seu-usuario-github/nome-do-reposit</a>ório.git
+git branch -M main
+git push -u origin main</p>
+<p>O comando git branch informa que o galho (branch) que será usado agora será o principal/padrão (main).
+E o git push está informando que os arquivos enviados através do comando push irão pelo galho (branch) Main.</p>
+<p>Agora quando você fizer um commit+ push (empacotar e enviar) seus arquivos do repositório local para o
+repositório remoto não vai dar erro pois estarão sincronizados.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://dudsdev.com.br/">Blog DudsDev</a></span>
+    <span>
+        - Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer">Hugo</a> &
+        <a href="https://github.com/Wonderfall/hugo-WonderMod/" rel="noopener">WonderMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+<script defer crossorigin="anonymous" src="/assets/js/papermod.727d74878dd0d630d592de1483de40c9393b9d59c42ec34eeac2b18635dd8959.js" integrity="sha256-cn10h43Q1jDVkt4Ug95AyTk7nVnELsNO6sKxhjXdiVk="></script>
+</body>
+
+</html>
