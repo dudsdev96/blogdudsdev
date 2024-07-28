@@ -2,34 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blogs on Blog DudsDev</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://blogdudsdev.pages.dev/blog/</link>
     <description>Recent content in Blogs on Blog DudsDev</description>
     <generator>Hugo -- 0.126.2</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 20 Jul 2024 16:48:58 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jul 2024 11:31:23 -0300</lastBuildDate>
+    <atom:link href="https://blogdudsdev.pages.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Criando postagens em Markdown com HUGO Sites</title>
+      <link>https://blogdudsdev.pages.dev/blog/criando_postagens_markdown/</link>
+      <pubDate>Sun, 28 Jul 2024 11:31:23 -0300</pubDate>
+      <guid>https://blogdudsdev.pages.dev/blog/criando_postagens_markdown/</guid>
+      <description>Para criar uma arquivo de postagem para seu site abra a pasta do seu site HUGO, copie o caminho dela e abra o CMD como administrador, digite o comando &amp;ldquo;cd&amp;rdquo; e clique com o botão direito para colar o caminho copiado e aperte enter.
+Você agora está dentro da pasta do seu projeto HUGO, o comando de criação de novas postagens devem ser digitados sempre na pasta raiz do seu Site.</description>
+    </item>
     <item>
       <title>Como instalar e configurar o seu projeto com HUGO Sites</title>
-      <link>http://localhost:1313/blog/como_instalar_configurar_hugo/</link>
+      <link>https://blogdudsdev.pages.dev/blog/como_instalar_configurar_hugo/</link>
       <pubDate>Sat, 20 Jul 2024 16:48:58 -0300</pubDate>
-      <guid>http://localhost:1313/blog/como_instalar_configurar_hugo/</guid>
+      <guid>https://blogdudsdev.pages.dev/blog/como_instalar_configurar_hugo/</guid>
       <description>Instalação 1.1 - Existem várias formas de instalar o Hugo em diversos sistemas operacionais, como: Windows, MAC e Linux, neste artigo estarei explicando como instalar no Windows. A forma mais prática é através de um gerenciador de pacotes chamado Winget.
 1.2 - Aperte a tecla do Windows para abrir o Menu Iniciar e digita CMD, clique com o botão direito em cima dele e depois clique na opção: &amp;ldquo;Executar como Administrador&amp;rdquo;.</description>
     </item>
     <item>
       <title>Porque sincronizar os repositórios GIT no GitHub</title>
-      <link>http://localhost:1313/blog/como_sincronizar_repositorios_git/</link>
+      <link>https://blogdudsdev.pages.dev/blog/como_sincronizar_repositorios_git/</link>
       <pubDate>Sat, 20 Jul 2024 16:32:03 -0300</pubDate>
-      <guid>http://localhost:1313/blog/como_sincronizar_repositorios_git/</guid>
+      <guid>https://blogdudsdev.pages.dev/blog/como_sincronizar_repositorios_git/</guid>
       <description>Diferença entre os repositórios O repositório remoto é a pasta com os arquivos do projeto que estão fisicamente em seu computador (local).
 Então você vai encontrar na sua frente 2 cenários:
 Você tem arquivos que estão somente em seu computador (localmente), ou: Você criou o repositório pelo site do GitHub mas ele está vazio, então você quer por arquivos nele para que possa controlar as versões do seu projeto. Porém existe um problema!</description>
     </item>
     <item>
       <title>Como instalar o GIT no seu computador</title>
-      <link>http://localhost:1313/blog/como_instalar_configurar_git/</link>
+      <link>https://blogdudsdev.pages.dev/blog/como_instalar_configurar_git/</link>
       <pubDate>Sat, 20 Jul 2024 16:25:59 -0300</pubDate>
-      <guid>http://localhost:1313/blog/como_instalar_configurar_git/</guid>
+      <guid>https://blogdudsdev.pages.dev/blog/como_instalar_configurar_git/</guid>
       <description>Instalação 1 - Baixar e instalar o git do site oficial 64bits: https://www.git-scm.com/downloads
 2 - Comando para ver se está instalado no computador e versão: Abrir o terminal CMD e digitar: git &amp;ndash;version
 Configuração 3 - Configurar usuário e senha do Github no Git:

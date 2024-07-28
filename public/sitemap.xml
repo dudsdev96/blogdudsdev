@@ -2,23 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://blogdudsdev.pages.dev/</loc>
+    <lastmod>2024-07-28T11:31:23-03:00</lastmod>
+  </url><url>
+    <loc>https://blogdudsdev.pages.dev/blog/</loc>
+    <lastmod>2024-07-28T11:31:23-03:00</lastmod>
+  </url><url>
+    <loc>https://blogdudsdev.pages.dev/blog/criando_postagens_markdown/</loc>
+    <lastmod>2024-07-28T11:31:23-03:00</lastmod>
+  </url><url>
+    <loc>https://blogdudsdev.pages.dev/blog/como_instalar_configurar_hugo/</loc>
     <lastmod>2024-07-20T16:48:58-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-07-20T16:48:58-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/como_instalar_configurar_hugo/</loc>
-    <lastmod>2024-07-20T16:48:58-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/como_sincronizar_repositorios_git/</loc>
+    <loc>https://blogdudsdev.pages.dev/blog/como_sincronizar_repositorios_git/</loc>
     <lastmod>2024-07-20T16:32:03-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/como_instalar_configurar_git/</loc>
+    <loc>https://blogdudsdev.pages.dev/blog/como_instalar_configurar_git/</loc>
     <lastmod>2024-07-20T16:25:59-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://blogdudsdev.pages.dev/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://blogdudsdev.pages.dev/tags/</loc>
   </url>
 </urlset>
