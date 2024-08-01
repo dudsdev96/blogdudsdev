@@ -195,18 +195,18 @@ você quer por arquivos nele para que possa controlar as versões do seu projeto
 no servidor remoto do GitHub</p>
 <h3 id="como-resolver-este-problema-simples-sincronizando-os-dois">Como resolver este problema? Simples! Sincronizando os dois!<a hidden class="anchor" aria-hidden="true" href="#como-resolver-este-problema-simples-sincronizando-os-dois">#</a></h3>
 <p>Crie o repositório local no seu computador primeiro e coloque os arquivos que desejar dentro dele.</p>
-<p>Primeiro Inicie o seu repositório local, abra o CMD em modo administrador e através do comando <strong>cd</strong>
+<p>Primeiro Inicie o seu repositório local, abra o CMD em modo administrador e através do comando <code>cd</code>
 você vai acessar a sua pasta do repositório local. Então digite: cd caminho-da-pasta no CMD e aperte Enter</p>
 <p>Agora você está dentro da pasta do projeto e vai precisar iniciá-lo, digite o comando:</p>
-<p><strong>git init</strong></p>
+<p><code>git init</code></p>
 <p>Neste momento você já pode utilizar outros comandos git dentro do seu repositório local.</p>
 <ul>
 <li>Muita atenção agora, estes comandos abaixo que vão Sincronizar os dois repositórios (local e remoto).
 Digite estes comandos no terminal para que o repositório local (pasta que onde você está acessado dentro do CMD):</li>
 </ul>
-<p>git remote add origin <a href="https://github.com/seu-usuario-github/nome-do-reposit">https://github.com/seu-usuario-github/nome-do-reposit</a>ório.git
-git branch -M main
-git push -u origin main</p>
+<p><code>git remote add origin https://github.com/seu-usuario-github/nome-do-repositório.git</code>
+<code>git branch -M main</code>
+<code>git push -u origin main</code></p>
 <p>O comando git branch informa que o galho (branch) que será usado agora será o principal/padrão (main).
 E o git push está informando que os arquivos enviados através do comando push irão pelo galho (branch) Main.</p>
 <p>Agora quando você fizer um commit+ push (empacotar e enviar) seus arquivos do repositório local para o

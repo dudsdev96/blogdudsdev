@@ -13,7 +13,7 @@
       <link>https://blogdudsdev.pages.dev/blog/criando_postagens_markdown/</link>
       <pubDate>Sun, 28 Jul 2024 11:31:23 -0300</pubDate>
       <guid>https://blogdudsdev.pages.dev/blog/criando_postagens_markdown/</guid>
-      <description>Para criar uma arquivo de postagem para seu site abra a pasta do seu site HUGO, copie o caminho dela e abra o CMD como administrador, digite o comando &amp;ldquo;cd&amp;rdquo; e clique com o botão direito para colar o caminho copiado e aperte enter.
+      <description>Para criar uma arquivo de postagem para seu site abra a pasta do seu site HUGO, copie o caminho dela e abra o CMD como administrador, digite o comando cd e clique com o botão direito para colar o caminho copiado e aperte enter.
 Você agora está dentro da pasta do seu projeto HUGO, o comando de criação de novas postagens devem ser digitados sempre na pasta raiz do seu Site.</description>
     </item>
     <item>
@@ -39,10 +39,11 @@ Você tem arquivos que estão somente em seu computador (localmente), ou: Você 
       <pubDate>Sat, 20 Jul 2024 16:25:59 -0300</pubDate>
       <guid>https://blogdudsdev.pages.dev/blog/como_instalar_configurar_git/</guid>
       <description>Instalação 1 - Baixar e instalar o git do site oficial 64bits: https://www.git-scm.com/downloads
-2 - Comando para ver se está instalado no computador e versão: Abrir o terminal CMD e digitar: git &amp;ndash;version
+2 - Comando para ver se está instalado no computador e versão: Abrir o terminal CMD e digitar:
+git --version
 Configuração 3 - Configurar usuário e senha do Github no Git:
-git config &amp;ndash;global user.name &amp;ldquo;seu-usuario-github&amp;rdquo;
-git config &amp;ndash;global user.email seu-email@tipo.com
+git config --global user.name &amp;quot;seu-usuario-github&amp;quot;
+git config --global user.email seu-email@tipo.com
 4 - Inicializar uma pasta com git (cria pasta oculta com comandos de configuração git) . OBS: Deixar essa pasta dentro da pasta do projeto</description>
     </item>
   </channel>

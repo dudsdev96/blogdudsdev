@@ -103,8 +103,8 @@
   "keywords": [
     
   ],
-  "articleBody": "Instalação 1.1 - Existem várias formas de instalar o Hugo em diversos sistemas operacionais, como: Windows, MAC e Linux, neste artigo estarei explicando como instalar no Windows. A forma mais prática é através de um gerenciador de pacotes chamado Winget.\n1.2 - Aperte a tecla do Windows para abrir o Menu Iniciar e digita CMD, clique com o botão direito em cima dele e depois clique na opção: “Executar como Administrador”. Note que abrirá o Prompt de Comando, uma tela preta. O caminho mostrado no Prompt de Comando está descrita a pasta System32, que é o que estamos buscando, isso vai facilitar usar os comandos no CMD/Prompt de Comando\nAgora digite no CMD o comando para instalação do HUGO através do Winget: “winget install Hugo.Hugo.Extended”. Aguarde até o fim da instalação, com o HUGO instalado vamos montar a estrutura de pastas e arquivos do site:\n1.3 - Para criar uma estrutura de site novo crie uma pasta no local desejado, nessa pasta ficará todos os arquivos referente ao seu site. Digite o comando: hugo new site nome-do-site.com.br\nPronto, a estrutura de pastas do seu site HUGO está montada. Vamos configurar o tema para o nosso site.\n1.4 - Vamos usar em nosso projeto o tema PaperMod e agora que estamos com as estruturas de pastas prontas é hora de baixá-lo e configurá-lo.\nClique no link para ir para a página de Documentação e Instalação do tema: https://github.com/adityatelange/hugo-PaperMod/wiki/Installation\nAgora em Get Started vamos seguir a opção 2 (OBS: Para todos os projetos basta seguir o item 1.3 e criar a pasta do seu site, mas esse é diferente, vamos precisar trabalhar com o arquivo de configuração do Tema em formato .YAML em vez de .TOML)\nEntão se você já criou a pasta do seu site com o HUGO como no item 1.3 você pode sair dela e apagá-la, vamos precisar criar ela novamente devido ao tema PaperMOD.\n1.5 - Digite este comando na pasta onde quer criar o seu projeto para criar a pasta do projeto com o arquivo de configuração em formato YAML:\nhugo new site meusite.com.br –format yaml\nDescendo agora vamos encontrar a opção: Installing/Updating PaperMod, note que existem vários métodos para instalar, vamos utilizar o Método 2 que é o recomendado. Vamos criar uma pasta separada para o tema (porém dentro da pasta do seu projeto) através do comando:\ngit submodule add –depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod\nAgora a pasta do seu tema vai ficar dentro da pasta Themes que está na raiz do projeto. Dentro da pasta PaperMod vai ficar todos os arquivos de configuração do tema 1.6 - Agora basta ir na Raiz do site HUGO e procurar o arquivo “hugo.yaml”, clique com o botão direito e selecione a opção Abrir com Visual Studio Code (Ou com o seu editor de código que você usa)\nAbaixo da última linha escreva depois salve o arquivo:\ntheme: PaperMod\nPronto! Agora acesse o seu prompt de comando (CMD) e entre na pasta do seu site:\ncd caminho-do-meu-site\nAgora dentro da pasta do seu site digite o comando para o servidor do HUGO renderizar o seu site no navegador: hugo server\nAbra seu navegador favorito e digite: localhost:1313\nSeu site já está funcionando no seu computador de forma local, agora basta criar os artigos em formato .md (Markdown) que abordaremos no próximo artigo\n",
-  "wordCount" : "551",
+  "articleBody": "Instalação 1.1 - Existem várias formas de instalar o Hugo em diversos sistemas operacionais, como: Windows, MAC e Linux, neste artigo estarei explicando como instalar no Windows. A forma mais prática é através de um gerenciador de pacotes chamado Winget.\n1.2 - Aperte a tecla do Windows para abrir o Menu Iniciar e digita CMD, clique com o botão direito em cima dele e depois clique na opção: “Executar como Administrador”. Note que abrirá o Prompt de Comando, uma tela preta. O caminho mostrado no Prompt de Comando está descrita a pasta System32, que é o que estamos buscando, isso vai facilitar usar os comandos no CMD/Prompt de Comando\nAgora digite no CMD o comando para instalação do HUGO através do Winget: winget install Hugo.Hugo.Extended\nAguarde até o fim da instalação, com o HUGO instalado vamos montar a estrutura de pastas e arquivos do site:\n1.3 - Para criar uma estrutura de site novo crie uma pasta no local desejado, nessa pasta ficará todos os arquivos referente ao seu site. Digite o comando:\nhugo new site nome-do-site.com.br\nPronto, a estrutura de pastas do seu site HUGO está montada. Vamos configurar o tema para o nosso site.\n1.4 - Vamos usar em nosso projeto o tema PaperMod e agora que estamos com as estruturas de pastas prontas é hora de baixá-lo e configurá-lo.\nClique no link para ir para a página de Documentação e Instalação do tema: https://github.com/adityatelange/hugo-PaperMod/wiki/Installation\nAgora em Get Started vamos seguir a opção 2 (OBS: Para todos os projetos basta seguir o item 1.3 e criar a pasta do seu site, mas esse é diferente, vamos precisar trabalhar com o arquivo de configuração do Tema em formato .YAML em vez de .TOML)\nEntão se você já criou a pasta do seu site com o HUGO como no item 1.3 você pode sair dela e apagá-la, vamos precisar criar ela novamente devido ao tema PaperMOD.\n1.5 - Digite este comando na pasta onde quer criar o seu projeto para criar a pasta do projeto com o arquivo de configuração em formato YAML:\nhugo new site meusite.com.br --format yaml\nDescendo agora vamos encontrar a opção: Installing/Updating PaperMod, note que existem vários métodos para instalar, vamos utilizar o Método 2 que é o recomendado. Vamos criar uma pasta separada para o tema (porém dentro da pasta do seu projeto) através do comando:\ngit submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod\nAgora a pasta do seu tema vai ficar dentro da pasta Themes que está na raiz do projeto. Dentro da pasta PaperMod vai ficar todos os arquivos de configuração do tema 1.6 - Agora basta ir na Raiz do site HUGO e procurar o arquivo hugo.yaml, clique com o botão direito e selecione a opção Abrir com Visual Studio Code (Ou com o seu editor de código que você usa)\nAbaixo da última linha escreva depois salve o arquivo:\ntheme: PaperMod\nPronto! Agora acesse o seu prompt de comando (CMD) e entre na pasta do seu site:\ncd caminho-do-meu-site\nAgora dentro da pasta do seu site digite o comando para o servidor do HUGO renderizar o seu site no navegador: hugo server\nAbra seu navegador favorito, digite e tecle Enter: localhost:1313\nSeu site já está funcionando no seu computador de forma local, agora basta criar os artigos em formato .md (Markdown) que abordaremos no próximo artigo\n",
+  "wordCount" : "553",
   "inLanguage": "en",
   "datePublished": "2024-07-20T16:48:58-03:00",
   "dateModified": "2024-07-20T16:48:58-03:00",
@@ -181,10 +181,12 @@
   </header> 
   <div class="post-content"><h2 id="instalação">Instalação<a hidden class="anchor" aria-hidden="true" href="#instalação">#</a></h2>
 <p>1.1 - Existem várias formas de instalar o Hugo em diversos sistemas operacionais, como: Windows, MAC e Linux, neste artigo estarei    explicando como instalar no Windows. A forma mais prática é através de um gerenciador de pacotes chamado Winget.</p>
-<p>1.2 - Aperte a tecla do Windows para abrir o Menu Iniciar e digita CMD, clique com o botão direito em cima dele e depois clique na opção: &ldquo;Executar como Administrador&rdquo;. Note que abrirá o Prompt de Comando, uma tela preta. O caminho mostrado no Prompt de Comando está descrita a pasta System32, que é o que estamos buscando, isso vai facilitar usar os comandos no CMD/Prompt de Comando</p>
+<p>1.2 - Aperte a tecla do Windows para abrir o Menu Iniciar e digita CMD, clique com o botão direito em cima dele e depois clique na opção: <strong>&ldquo;Executar como Administrador&rdquo;</strong>. Note que abrirá o Prompt de Comando, uma tela preta. O caminho mostrado no Prompt de Comando está descrita a pasta System32, que é o que estamos buscando, isso vai facilitar usar os comandos no CMD/Prompt de Comando</p>
 <p>Agora digite no CMD o comando para instalação do HUGO através do Winget:
-&ldquo;winget install Hugo.Hugo.Extended&rdquo;. Aguarde até o fim da instalação, com o HUGO instalado vamos montar a estrutura de pastas e arquivos do site:</p>
-<p>1.3 - Para criar uma estrutura de site novo crie uma pasta no local desejado, nessa pasta ficará todos os arquivos referente ao seu site. Digite o comando: hugo new site nome-do-site.com.br</p>
+<code>winget install Hugo.Hugo.Extended</code></p>
+<p>Aguarde até o fim da instalação, com o HUGO instalado vamos montar a estrutura de pastas e arquivos do site:</p>
+<p>1.3 - Para criar uma estrutura de site novo crie uma pasta no local desejado, nessa pasta ficará todos os arquivos referente ao seu site. Digite o comando:</p>
+<p><code>hugo new site nome-do-site.com.br</code></p>
 <p>Pronto, a estrutura de pastas do seu site HUGO está montada. Vamos configurar o tema para o nosso site.</p>
 <p>1.4 - Vamos usar em nosso projeto o tema PaperMod e agora que estamos com as estruturas de pastas prontas é hora de baixá-lo e configurá-lo.</p>
 <ul>
@@ -197,25 +199,25 @@
 </ul>
 <p>Então se você já criou a pasta do seu site com o HUGO como no item 1.3 você pode sair dela e apagá-la, vamos precisar criar ela novamente devido ao tema PaperMOD.</p>
 <p>1.5 - Digite este comando na pasta onde quer criar o seu projeto para criar a pasta do projeto com o arquivo de configuração em formato YAML:</p>
-<p>hugo new site meusite.com.br &ndash;format yaml</p>
+<p><code>hugo new site meusite.com.br --format yaml</code></p>
 <p>Descendo agora vamos encontrar a opção: <strong>Installing/Updating PaperMod</strong>, note que existem vários métodos para instalar, vamos utilizar o Método 2 que é o recomendado. Vamos criar uma pasta separada para o tema (porém dentro da pasta do seu projeto) através do comando:</p>
-<p>git submodule add &ndash;depth=1 <a href="https://github.com/adityatelange/hugo-PaperMod.git">https://github.com/adityatelange/hugo-PaperMod.git</a> themes/PaperMod</p>
+<p><code>git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod</code></p>
 <ul>
 <li>Agora a pasta do seu tema vai ficar dentro da pasta Themes que está na raiz do projeto. Dentro da pasta PaperMod vai ficar todos os arquivos de configuração do tema</li>
 </ul>
-<p>1.6 - Agora basta ir na Raiz do site HUGO e procurar o arquivo &ldquo;hugo.yaml&rdquo;, clique com o botão direito e selecione a opção Abrir com Visual Studio Code (Ou com o seu editor de código que você usa)</p>
+<p>1.6 - Agora basta ir na Raiz do site HUGO e procurar o arquivo <strong>hugo.yaml</strong>, clique com o botão direito e selecione a opção Abrir com Visual Studio Code (Ou com o seu editor de código que você usa)</p>
 <p>Abaixo da última linha escreva depois salve o arquivo:</p>
-<p>theme: PaperMod</p>
+<p><code>theme: PaperMod</code></p>
 <p>Pronto! Agora acesse o seu prompt de comando (CMD) e entre na pasta do seu site:</p>
-<p>cd caminho-do-meu-site</p>
+<p><code>cd caminho-do-meu-site</code></p>
 <ul>
 <li>Agora dentro da pasta do seu site digite o comando para o servidor do HUGO renderizar o seu site no navegador:</li>
 </ul>
-<p>hugo server</p>
+<p><code>hugo server</code></p>
 <ul>
-<li>Abra seu navegador favorito e digite:</li>
+<li>Abra seu navegador favorito, digite e tecle Enter:</li>
 </ul>
-<p>localhost:1313</p>
+<p><code>localhost:1313</code></p>
 <p>Seu site já está funcionando no seu computador de forma local, agora basta criar os artigos em formato .md (Markdown) que abordaremos no próximo artigo</p>
 
 

@@ -23,21 +23,21 @@ no servidor remoto do GitHub
 
 Crie o repositório local no seu computador primeiro e coloque os arquivos que desejar dentro dele.
 
-Primeiro Inicie o seu repositório local, abra o CMD em modo administrador e através do comando **cd** 
+Primeiro Inicie o seu repositório local, abra o CMD em modo administrador e através do comando `cd`
 você vai acessar a sua pasta do repositório local. Então digite: cd caminho-da-pasta no CMD e aperte Enter
 
 Agora você está dentro da pasta do projeto e vai precisar iniciá-lo, digite o comando:
 
-**git init**
+`git init`
 
 Neste momento você já pode utilizar outros comandos git dentro do seu repositório local.
 
 * Muita atenção agora, estes comandos abaixo que vão Sincronizar os dois repositórios (local e remoto).
  Digite estes comandos no terminal para que o repositório local (pasta que onde você está acessado dentro do CMD):
 
-git remote add origin https://github.com/seu-usuario-github/nome-do-repositório.git
-git branch -M main
-git push -u origin main
+`git remote add origin https://github.com/seu-usuario-github/nome-do-repositório.git`
+`git branch -M main`
+`git push -u origin main`
 
 O comando git branch informa que o galho (branch) que será usado agora será o principal/padrão (main).
 E o git push está informando que os arquivos enviados através do comando push irão pelo galho (branch) Main.
