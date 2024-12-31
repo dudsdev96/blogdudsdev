@@ -51,7 +51,7 @@ For every code change, you need to add the file again to prepare for sending (co
 
 The origin main specifies which branch the files will be sent to on the remote GitHub server. In this case, it’s the main branch. If you haven’t created any other branches, this will be the only one, and all pushes will go to it.
 
-## Second Step: Opening the Project on Your Computer :astonished:
+## Second Step: Opening the Project on Your Computer :sunglasses:
 
 ### For Windows:
 
