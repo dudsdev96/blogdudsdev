@@ -1,9 +1,3 @@
-+++
-title = 'README'
-date = 2024-12-31T12:44:07-03:00
-draft = true
-+++
-
 # Blog Duds Dev
 
 Hello! I’m Eduardo. To open the project on your machine and use it, follow the steps below. :smiley:
